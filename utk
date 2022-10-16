@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a;
+  cin>>a;
+  
+  int b;
+  cin>>b;
+  int c=a+b;
+  int d=a*b;
+  float e=a/b;
+  int f=b-a;
+  
+  cout<<c<<d<<e<<f<<endl;
+  return 0;
+  }
